@@ -2,23 +2,23 @@
     <string name="app_name">Firebase UI</string>
 
     <!-- Chooser -->
-    <string name="title_auth_activity">Auth UI demo</string>
-    <string name="title_firestore_activity">Cloud Firestore Demo</string>
-    <string name="title_firestore_paging_activity">Cloud Firestore Paging Demo</string>
-    <string name="title_realtime_database_activity">Real-time database demo</string>
-    <string name="title_storage_activity">Storage Image Demo</string>
+    <string name="title_auth_activity">ユーザー認証 UI デモ</string>
+    <string name="title_firestore_activity">Cloud Firestore デモ</string>
+    <string name="title_firestore_paging_activity">Cloud Firestore Paging デモ</string>
+    <string name="title_realtime_database_activity">リアルタイム データベース デモ</string>
+    <string name="title_storage_activity">ストレージ 画像 デモ</string>
 
-    <string name="desc_auth">Demonstrates the Firebase Auth UI flow, with customization options.</string>
-    <string name="desc_anonymous_upgrade">Demonstrates upgrading an anonymous account using FirebaseUI.</string>
-    <string name="desc_firestore">Demonstrates using a FirestoreRecyclerAdapter to load data from Cloud Firestore into a RecyclerView for a basic chat app.</string>
-    <string name="desc_firestore_paging">Demonstrates using a FirestorePagingAdapter to load/infinite scroll paged data from Cloud Firestore.</string>
-    <string name="desc_realtime_database">Demonstrates using a FirebaseRecyclerAdapter to load data from Firebase Database into a RecyclerView for a basic chat app.</string>
-    <string name="desc_storage">Demonstrates displaying an image from Cloud Storage using Glide.</string>
+    <string name="desc_auth">カスタマイズオプションを備えたFirebase ユーザー認証 UIフローの例を示します。</string>
+    <string name="desc_anonymous_upgrade">FirebaseUIを使用して匿名アカウントをアップグレードする方法を示します。</string>
+    <string name="desc_firestore">FirestoreRecyclerAdapterを使用して、Cloud Firestoreから基本的なチャットアプリケーション用のRecyclerViewにデータをロードする方法を示します。</string>
+    <string name="desc_firestore_paging">FirestorePagingAdapterを使用してCloud Firestoreからスクロールページデータをロード/無限に使用する方法を示します。</string>
+    <string name="desc_realtime_database">FirebaseRecyclerAdapterを使用してFirebaseデータベースから基本チャットアプリのRecyclerViewにデータをロードする方法を示します。</string>
+    <string name="desc_storage">Glideを使用してCloud Storageから画像を表示する方法を示します。</string>
 
     <!-- Auth UI -->
-    <string name="launch_title">FirebaseUI Auth Demo</string>
-    <string name="sign_in_start">Start</string>
-    <string name="sign_in_silent">Sign in silently</string>
+    <string name="launch_title">FirebaseUI ユーザー認証 デモ</string>
+    <string name="sign_in_start">スタート</string>
+    <string name="sign_in_silent">sign-in silently</string>
 
     <string name="providers_header">Auth providers</string>
     <string name="providers_google">Google</string>
@@ -30,17 +30,17 @@
     <string name="providers_phone">Phone</string>
     <string name="providers_anonymous">Anonymous</string>
 
-    <string name="layout_header">Layout</string>
-    <string name="layout_default">Default</string>
-    <string name="layout_custom">Custom</string>
+    <string name="layout_header">レイアウト</string>
+    <string name="layout_default">デフォルト</string>
+    <string name="layout_custom">カスタム</string>
 
-    <string name="theme_header">Theme</string>
-    <string name="theme_default">Default theme</string>
-    <string name="theme_purple">Purple Theme</string>
-    <string name="theme_green">Green Theme</string>
-    <string name="theme_dark">Dark Theme</string>
+    <string name="theme_header">チーム</string>
+    <string name="theme_default">デフォルト チーム</string>
+    <string name="theme_purple">パープル チーム</string>
+    <string name="theme_green">グリーン チーム</string>
+    <string name="theme_dark">ダーク チーム</string>
 
-    <string name="logo_header">Logo</string>
+    <string name="logo_header">ロゴ</string>
     <string name="logo_firebase">Firebase Auth</string>
     <string name="logo_google">Google</string>
     <string name="logo_none">None</string>
@@ -62,11 +62,11 @@
     <string name="github_permission_repo">Repo</string>
     <string name="github_permission_gist">Gist</string>
 
-    <string name="options_header">Other Options</string>
-    <string name="options_enable_credential_selector">Enable Smart Lock\'s credential selector</string>
-    <string name="options_enable_hint_selector">Enable Smart Lock\'s hint selector</string>
-    <string name="options_allow_new_email_acccount">Allow new account creation</string>
-    <string name="options_require_name">Require first/last name with email accounts.</string>
+    <string name="options_header">その他のオプション</string>
+    <string name="options_enable_credential_selector">Smart Lockの資格情報セレクタを有効にする</string>
+    <string name="options_enable_hint_selector">スマートロックのヒントセレクタを有効にする</string>
+    <string name="options_allow_new_email_acccount">新しいアカウント作成を許可する</string>
+    <string name="options_require_name">メールアカウントで名字を要求する。</string>
 
     <string name="configuration_required">Configuration required - see README.md</string>
     <string name="google_label_missing_config">Google configuration missing</string>
@@ -84,16 +84,16 @@
     <string name="resolve_merge_conflict">Resolve Merge Conflict</string>
 
     <!-- Auth UI - Signed in -->
-    <string name="signed_in_header">You are signed in!</string>
-    <string name="sign_out">Sign out</string>
-    <string name="delete_account_label">Delete account</string>
+    <string name="signed_in_header">サインイン</string>
+    <string name="sign_out">サインアウト</string>
+    <string name="delete_account_label">アカウント削除</string>
 
-    <string name="sign_in_failed">Sign in failed</string>
-    <string name="sign_out_failed">Sign out failed</string>
-    <string name="delete_account_failed">Delete account failed</string>
+    <string name="sign_in_failed">サインインに失敗</string>
+    <string name="sign_out_failed">サインアウトに失敗</string>
+    <string name="delete_account_failed">アカウント削除に失敗</string>
 
-    <string name="user_profile_header">User profile:</string>
-    <string name="profile_picture_content_desc">Profile picture</string>
+    <string name="user_profile_header">ユーザー情報:</string>
+    <string name="profile_picture_content_desc">ユーザー画像</string>
     <string name="used_providers">Providers used: %s</string>
     <string name="idp_token">IDP Token</string>
     <string name="idp_secret">IDP Secret</string>
@@ -106,24 +106,24 @@
 
 
     <!-- Storage -->
-    <string name="choose_image">Choose Image</string>
-    <string name="upload">Upload</string>
-    <string name="download">Download</string>
-    <string name="send">Send</string>
-    <string name="accessibility_downloaded_image">Downloaded image</string>
+    <string name="choose_image">画像を選択</string>
+    <string name="upload">アップロード</string>
+    <string name="download">ダウンロード</string>
+    <string name="send">送信</string>
+    <string name="accessibility_downloaded_image">画像をダウンロード</string>
 
-    <string name="rational_image_perm">This sample will read an image from local storage to upload to Cloud Storage.</string>
+    <string name="rational_image_perm">このサンプルでは、ローカルストレージから画像を読み取り、Cloud Storageにアップロードします。</string>
 
     <!-- Database -->
-    <string name="start_chatting">No messages. Start chatting at the bottom!</string>
-    <string name="signing_in">Signing in…</string>
-    <string name="signed_in">Signed In</string>
+    <string name="start_chatting">メッセージがありません. チャットを始めよう。</string>
+    <string name="signing_in">サインイン…</string>
+    <string name="signed_in">サインイン</string>
     <string name="anonymous_auth_failed_msg">
-        Anonymous authentication failed, various components of the demo will not work.
-        Make sure your device is online and that Anonymous Auth is configured in your Firebase project
-        (https://console.firebase.google.com/project/_/authentication/providers)
+        匿名認証に失敗したため、デモのさまざまなコンポーネントが動作しません。
+         あなたのデバイスがオンラインで、FirebaseプロジェクトにAnonymous Authが設定されていることを確認してください
+         （https://console.firebase.google.com/project/_/authentication/providers）
     </string>
 
-    <string name="menu_add_data">Add Data</string>
-    <string name="hint_message">Say something…</string>
+    <string name="menu_add_data">データを追加</string>
+    <string name="hint_message">入力待ち…</string>
 </resources>

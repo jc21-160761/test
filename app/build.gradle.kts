@@ -4,6 +4,8 @@
 android {
     defaultConfig {
         multiDexEnabled = true
+
+        resConfigs("ja","en")
     }
 
     buildTypes {

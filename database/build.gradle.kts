@@ -3,6 +3,9 @@ tasks.named("check").configure { dependsOn("compileDebugAndroidTestJavaWithJavac
 android {
     defaultConfig {
         testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled = true
+
+        resConfigs("ja","en")
     }
 }
 

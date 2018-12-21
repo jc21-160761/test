@@ -20,6 +20,11 @@ android {
             isIncludeAndroidResources = true
         })
     }
+    defaultConfig {
+        multiDexEnabled = true
+
+        resConfigs("ja","en")
+    }
 }
 
 dependencies {
